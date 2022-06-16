@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>SMA Negri 1</title>
+  <link rel="stylesheet" href="css\bootstrap.min.css">
+ </head>
+ <body>
+
+ <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="Home.html" >SMA NEGRI 1</a></li>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+		  <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Lihat Daftar</a>
+          <ul class="dropdown-menu">
+			<li><a href="List_Siswa.php">Siswa</a></li>
+            <li><a href="List_kelas.php">Kelas</a></li>
+            <li><a href="List_Semester.php">Semester</a></li>
+			<li><a href="List_Absen">Absen</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Cari</button>
+      </form>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<nav class="navbar navbar-default navbar">
+	<div class="page-header">
+		<center>
+		  <h1>@ SELAMAT DATANG DI WEB SMA NEGRI 1 @</h1>
+		  
+		</center>
+	</div>
+</nav>
+</br></br>
+
+<div class="container">
+	<div class="row">
+	
+	  <div class="col-xs-6 col-md-3">
+		<nav class="navbar navbar-default navbar-static-top">
+		<a href="List_Siswa.php" class="thumbnail">
+		  <img src="image/people-icon.jpg" alt="...">
+		</a>
+		
+		<center>
+		<h3><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Daftar Siswa</a></h3>
+		</center>
+		</nav>
+	  </div>
+	
+	  <div class="col-xs-6 col-md-3">
+		<nav class="navbar navbar-default navbar-static-top">
+		<a href="List_Kelas_php" class="thumbnail">
+		  <img src="image/blue-learning-icon.jpg" alt="...">
+		</a>
+		<center>
+		<h3><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Daftar Kelas</a></h3>
+		</center>
+		</nav>
+	  </div>
+
+	  <div class="col-xs-6 col-md-3">
+		<nav class="navbar navbar-default navbar-static-top">
+		<a href="List_Semester.php" class="thumbnail">
+		  <img src="image/semester-icon.jpg" alt="...">
+		</a>
+		<center>
+		<h3><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Daftar Semester</a></h3>
+		</center>
+		</nav>
+	  </div>
+
+	  <div class="col-xs-6 col-md-3">
+		<nav class="navbar navbar-default navbar-static-top">
+		<a href="List_Absen.php" class="thumbnail">
+		  <img src="image/absent-icon.jpg" alt="...">
+		</a>
+		<center>
+		<h3><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Daftar Absen</a></h3>
+		</center>
+		</nav>
+	  </div>
+
+	</div>
+</div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</br></br>
+<div class="panel panel-default">
+  <div class="panel-footer">2015@ 72130005.com</div>
+</div>
+
+
+ </body>
+</html>
