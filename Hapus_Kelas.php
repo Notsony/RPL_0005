@@ -1,4 +1,5 @@
 <?PHP
+include_once('fix_mysql.inc.php');
 $id_kelas = $_GET['id_kelas'];
 $sqlStr = "DELETE FROM Kelas WHERE id_kelas='$id_kelas'";
 //echo $sqlStr;

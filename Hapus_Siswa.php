@@ -1,4 +1,5 @@
 <?PHP
+include_once('fix_mysql.inc.php');
 $nis = $_GET['nis'];
 $sqlStr = "DELETE FROM siswa WHERE nis='$nis'";
 //echo $sqlStr;
