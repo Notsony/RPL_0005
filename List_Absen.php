@@ -2,7 +2,7 @@
 <html lang="en">
  <head>
   <meta charset="UTF-8">
-  <meta name="Generator" content="EditPlus®">
+  <meta name="Generator" content="EditPlusï¿½">
   <meta name="Author" content="">
   <meta name="Keywords" content="">
   <meta name="Description" content="">
@@ -65,6 +65,7 @@
 			
 			<tbody>
 			<?PHP
+			include_once('fix_mysql.inc.php');
 			if(!isset($_POST['id_semester']) || $_POST['id_semester']=="Semua Semester dan Tahun Ajaran")
 				$saring = "";
 			else{
