@@ -1,4 +1,5 @@
 <?PHP
+include_once('fix_mysql.inc.php');
 $nis = $_POST['nis'];
 $nama = $_POST['nama'];
 $tgl_lahir = $_POST['tgl_lahir'];

@@ -1,4 +1,5 @@
 <?PHP
+include_once('fix_mysql.inc.php');
 $id_kelas = $_POST['id_kelas'];
 $nama_kelas = $_POST['nama_kelas'];
 $wali_kelas = $_POST['wali_kelas'];

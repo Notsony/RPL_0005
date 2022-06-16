@@ -1,4 +1,5 @@
 <?PHP
+include_once('fix_mysql.inc.php');
 $id_semester = $_POST['id_semester'];
 $semester = $_POST['semester'];
 $thn_ajaran = $_POST['thn_ajaran'];

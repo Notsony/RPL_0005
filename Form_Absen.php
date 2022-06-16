@@ -2,7 +2,7 @@
 <html lang="en">
  <head>
   <meta charset="UTF-8">
-  <meta name="Generator" content="EditPlus®">
+  <meta name="Generator" content="EditPlusï¿½">
   <meta name="Author" content="">
   <meta name="Keywords" content="">
   <meta name="Description" content="">
@@ -62,6 +62,7 @@
 						</br></br>
 
 						<?PHP
+						include_once('fix_mysql.inc.php');
 						mysql_connect("localhost","root","") or die(mysql_error());
 						mysql_select_db("database_72130005") or die("Database tidak ditemukan");
 						$query = mysql_query("SELECT a.id_absen, s.nama, k.nama_kelas, t.semester, a.*
